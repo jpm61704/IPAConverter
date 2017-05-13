@@ -1,0 +1,38 @@
+<body>
+	<entry>
+	<form>
+	  <orth>stehen</orth>
+	  <pron>ʃteːən</pron>
+	</form>
+	<sense>
+	  <cit type="trans">
+		<quote>to stand</quote>
+	  </cit>
+	  <cit type="trans">
+		<quote>to become {became, become}</quote>
+	  </cit>
+	</sense>
+	</entry>
+	<entry>
+	<form>
+	  <orth>stehenbleiben</orth>
+	  <pron>ʃteːənblaibən</pron>
+	</form>
+	<sense>
+	  <cit type="trans">
+		<quote>to stay</quote>
+	  </cit>
+	</sense>
+	</entry>
+	<entry>
+	<form>
+	  <orth>stehend</orth>
+	  <pron>ʃteːənt</pron>
+	</form>
+	<sense>
+	  <cit type="trans">
+		<quote>standing</quote>
+	  </cit>
+	</sense>
+	</entry>
+</body>
