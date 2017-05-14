@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/bin"
-libdir     = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/lib/x86_64-linux-ghc-7.10.3/ipa-scraper-0.1.0.0-ILQXpElOcZW4qntRBRmnSz"
+libdir     = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/lib/x86_64-linux-ghc-7.10.3/ipa-scraper-0.1.0.0-E1Pl16mQBGQL8pHRJQxlB4"
 dynlibdir  = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/lib/x86_64-linux-ghc-7.10.3"
 datadir    = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/share/x86_64-linux-ghc-7.10.3/ipa-scraper-0.1.0.0"
 libexecdir = "/mnt/c/Users/Jack/Documents/Dev/haskell/ipa/ipa-scraper/.stack-work/install/x86_64-linux/lts-6.0/7.10.3/libexec"

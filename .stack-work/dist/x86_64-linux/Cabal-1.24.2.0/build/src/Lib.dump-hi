@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-05-13 17:53:37.670352 UTC
+2017-05-14 16:55:25.113967 UTC
 
-interface ILQXpElOcZW4qntRBRmnSz:Lib 7103
-  interface hash: bed79d4c94129896fb95d2d5bb066dfa
-  ABI hash: a7a07b97a928937d1ff94cbdf2e74919
-  export-list hash: b941efefd8cf10a32c70622006f32bf6
+interface E1Pl16mQBGQL8pHRJQxlB4:Lib 7103
+  interface hash: 5e36196c930ed5612515f2960b2df76f
+  ABI hash: cbc9dcc29c116a7684dd1917372766c0
+  export-list hash: 235fb961ecfb30e57ab824a05954d645
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: ef5739e7162d9b23081a955ffa54fe77
   sig of: Nothing
@@ -13,7 +13,6 @@ interface ILQXpElOcZW4qntRBRmnSz:Lib 7103
   where
 exports:
   Lib.getPronFromXML
-  Lib.getPronFromXML'
 module dependencies:
 package dependencies: blaze-markup-0.7.0.3@3Jx9UUWVXwM2DJBakaoeLC
                       xml-types-0.3.6@5OKQ9vadobC4yRL1sxEBTp
@@ -105,38 +104,27 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
 import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text 677c532e2dd56476a11a0a8a53880ce7
 import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show 081cc243e944015e37c793c3b0ebfefd
-6a2559a9b787608863d8932e2e953c3e
+396f1c36a8bed8b0642a8883400517c2
   getPronFromXML ::
-    [GHC.Base.String]
+    GHC.Base.String
+    -> [GHC.Base.String]
     -> GHC.Types.IO [(GHC.Base.String, GHC.Base.String)]
-  {- Arity: 2, Strictness: <L,U><L,U>,
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.getPronFromXML1
                   `cast`
-                (<[GHC.Base.String]>_R
+                (<GHC.Base.String>_R
+                 ->_R <[GHC.Base.String]>_R
                  ->_R Sym (GHC.Types.NTCo:IO[0]
                                <[(GHC.Base.String, GHC.Base.String)]>_R)) -}
-d58515c3ef03ce2ca3d30b75f25251e0
-  getPronFromXML' :: GHC.Base.String -> GHC.Types.IO GHC.Base.String
-  {- Arity: 2, Strictness: <L,U><L,U>,
-     Unfolding: InlineRule (0, True, True)
-                Lib.getPronFromXML'1
-                  `cast`
-                (<GHC.Base.String>_R
-                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Base.String>_R)) -}
-02b78ad6279d3f8a3527746e95988b38
-  getPronFromXML'1 ::
-    GHC.Base.String
-    -> GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
-  {- Arity: 2, Strictness: <L,U><L,U> -}
-daa6bc4effd1c7209df898d57d1fc2ef
+44b0bbcae33214ba626746c54e2ec232
   getPronFromXML1 ::
-    [GHC.Base.String]
+    GHC.Base.String
+    -> [GHC.Base.String]
     -> GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
           [(GHC.Base.String, GHC.Base.String)] #)
-  {- Arity: 2, Strictness: <L,U><L,U> -}
+  {- Arity: 3, Strictness: <L,U><L,U><L,U> -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:

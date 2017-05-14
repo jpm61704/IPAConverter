@@ -1,20 +1,16 @@
 module Main where
 
-import Lib
+import PronXMLParser
+import WordIO
+import System.Environment
 
-
-germ :: [String]
-germ = ["stehen", "graben", "vier", "aufstehen", "arbeiten", "Arbeit"]
-
-printListOfTuples :: [(String, String)] -> IO ()
-printListOfTuples ((str1, str2):xs) = do
-    putStrLn (str1 ++ ", " ++ str2)
-    printListOfTuples xs
+params :: IO ()
+params = do
+    p <- getArgs
+    wrds <- getWords (head p)
+    x <- getPronFromXML "deu-eng.tei.txt" wrds
+    putWords x (p !! 1)
     return ()
-printListOfTuples [] = return ()
 
 main :: IO ()
-main = do
-    x <- getPronFromXML germ
-    printListOfTuples x
-    return ()
+main = params

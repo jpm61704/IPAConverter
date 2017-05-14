@@ -14,6 +14,13 @@
   (major1) == 4 && (major2) <  8 || \
   (major1) == 4 && (major2) == 8 && (minor) <= 2)
 
+/* package split-0.2.3.1 */
+#define VERSION_split "0.2.3.1"
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
 /* package text-1.2.2.1 */
 #define VERSION_text "1.2.2.1"
 #define MIN_VERSION_text(major1,major2,minor) (\
@@ -112,7 +119,7 @@
   (major1) == 2 && (major2) <  24 || \
   (major1) == 2 && (major2) == 24 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "ipa-scraper-0.1.0.0-ILQXpElOcZW4qntRBRmnSz"
+#define CURRENT_COMPONENT_ID "ipa-scraper-0.1.0.0-E1Pl16mQBGQL8pHRJQxlB4"
 
-#define CURRENT_PACKAGE_KEY "ILQXpElOcZW4qntRBRmnSz"
+#define CURRENT_PACKAGE_KEY "E1Pl16mQBGQL8pHRJQxlB4"
 
